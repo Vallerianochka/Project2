@@ -1,0 +1,36 @@
+.page {
+    height: 920px;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+	border: 1px solid red;
+}
+
+/*Стили HEADER*/
+.header {
+	height: 720px;
+	border: 1px solid red;
+	align-self: center;
+}
+
+.logo_place_header {
+	background-image: url(../images/your_logo.png);
+	width: 228px;
+    height: 32px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	
+	border: 1px solid red;
+}
+
+.header__title {
+	border: 1px solid red;
+	text-align: center;
+}
+
+.header__subtitle {
+	text-align: center;
+}
+
+.header__buttons {
+	align-content: center;
+}
