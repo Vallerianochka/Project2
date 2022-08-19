@@ -9,9 +9,25 @@
 .header {
 	height: 720px;
 	border: 1px solid red;
-	align-self: center;
+	display: flex;
+	flex-direction: column;
+	padding: 0 30px;
+	background-image: url(../images/mountain-header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
+.header__elements {
+	border: 1px solid rgb(0, 255, 55);
+	display: flex;
+	justify-content: space-between;
+}
+
+.header__buttons {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
 .logo_place_header {
 	background-image: url(../images/your_logo.png);
 	width: 228px;
@@ -29,8 +45,10 @@
 
 .header__subtitle {
 	text-align: center;
+	border: 1px solid rgb(0, 174, 255);
 }
 
-.header__buttons {
-	align-content: center;
+.header__all_buttons {
+	background-color: red;
+	font-size: 25px;
 }
