@@ -1,3 +1,9 @@
+@font-face {
+	font-family: "Glyphicons";
+	src: url(../fonts/glyphicons-halflings-regular.woff)format(woff);
+	font-style: normal;
+}
+
 .page {
     height: 920px;
     margin: 0 auto;
@@ -11,16 +17,20 @@
 	border: 1px solid red;
 	display: flex;
 	flex-direction: column;
-	padding: 0 30px;
+	padding: 20px 45px;
 	background-image: url(../images/mountain-header.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
+.header__content {
+	padding: 100px 0;
+}
+
 .header__elements {
-	border: 1px solid rgb(0, 255, 55);
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .header__buttons {
@@ -28,38 +38,91 @@
 	justify-content: center;
 	gap: 10px;
 }
+
+.base-button {
+	font-family: "Glyphicons";
+	font-weight: 500;
+	color: white;
+	font-size: 16px;
+	padding: 10px 25px;
+	border-radius: 3px;
+	border: none;
+}
+
+.header__first_button {
+	background-color: #40E6F0;
+}
+
+.header__accent_button {
+	background-color: #F04075;
+}
+
 .logo_place_header {
 	background-image: url(../images/your_logo.png);
 	width: 228px;
     height: 32px;
 	background-size: contain;
 	background-repeat: no-repeat;
-	
-	border: 1px solid red;
 }
 
 .header__title {
-	border: 1px solid red;
 	text-align: center;
+}
+
+.header__title_top {
+	font-family: "Glyphicons";
+	font-size: 36px;
+	margin: 0;
+	color: white;
+}
+
+.header__title_bottom {
+	font-family: "Glyphicons";
+	font-size: 58px;
+	margin: 0;
+	color: white;
 }
 
 .header__subtitle {
 	text-align: center;
-	border: 1px solid rgb(0, 174, 255);
+	margin: 50px 0 30px 0;
+	line-height: 1.6;
+	color: white;
+	font-size: 18px;
 }
 
 .header__burger-button {
 	width: 38px;
 	height: 38px;
+	background: transparent;
+	border: none;
 }
 
-.header__burger-icon {
+.header__burger-icon path {
 	width: 24px;
 	height: 24px;
+	fill: black;
 
 }
 
 .header__all_buttons {
-	background-color: red;
-	font-size: 25px;
+	
+}
+
+/*2 блок BENEFITS*/
+.benefits__tile {
+	display: flex;
+	width: 80%;
+	justify-content: center;
+}
+
+.benefits__card {
+	text-align: center;
+}
+
+.benefits__card-image {
+	width: 50px;
+	height: 50px;
+	background-image: url(../images/mountain-header.jpg);
+	text-align: center;
 }
