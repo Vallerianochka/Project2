@@ -143,3 +143,33 @@
 	background-image: url(../images/mountain-header.jpg);
 	/*text-align: center;*/
 }
+
+/*3 блок NUMBERS*/
+.numbers {
+	background-image: url(../images/mountain-header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.numbers__info {
+	background-color: rgba(23, 144, 255, 0.35);
+	display: flex;
+	flex-direction: column;
+	padding: 20px 30px 20px 30px;
+	width: 300px;
+	margin-right: 40px;
+}
+
+.numbers__square {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	gap: 20px;
+}
+.numbers__square-stroke {
+	border: 1px solid white;
+	width: 400px;
+	text-align: center;
+}
