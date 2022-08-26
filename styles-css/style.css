@@ -110,13 +110,30 @@
 }
 
 /*2 блок BENEFITS*/
+.benefits {
+	/*display: flex;
+	justify-content: center;
+	flex-direction: column;*/
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
 .benefits__tile {
 	display: flex;
-	width: 80%;
-	justify-content: center;
+	flex-direction: row;
+	padding: 0 45px 0 45px;
+	gap: 15px;
+	/*justify-content: center;*/
 }
 
 .benefits__card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*width: 590px;*/
+
+}
+
+.benefits__card-text {
 	text-align: center;
 }
 
@@ -124,5 +141,5 @@
 	width: 50px;
 	height: 50px;
 	background-image: url(../images/mountain-header.jpg);
-	text-align: center;
+	/*text-align: center;*/
 }
