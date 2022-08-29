@@ -159,7 +159,7 @@
 	flex-direction: column;
 	padding: 20px 30px 20px 30px;
 	width: 300px;
-	margin-right: 40px;
+	margin-right: 45px;
 }
 
 .numbers__square {
@@ -172,4 +172,28 @@
 	border: 1px solid white;
 	width: 400px;
 	text-align: center;
+}
+
+/*4 блок NUMBERS*/
+.blog {
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+	padding: 45px;
+	justify-content: center;
+}
+
+.blog__left-side{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 600px;
+}
+
+.blog__image {
+	background-image: url(../images/mountain-header.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 350px;
+	height: 350px;
 }
