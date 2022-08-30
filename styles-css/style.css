@@ -121,7 +121,7 @@
 	display: flex;
 	flex-direction: row;
 	padding: 0 45px 0 45px;
-	gap: 15px;
+	gap: 30px;
 	/*justify-content: center;*/
 }
 
@@ -130,19 +130,43 @@
 	flex-direction: column;
 	align-items: center;
 	/*width: 590px;*/
+}
 
+.benefuts__card-one {
+	background-image: url(../images/briefcase.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 42px;
+	height: 42px;
+}
+
+.benefuts__card-two {
+	background-image: url(../images/camera.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 42px;
+	height: 42px;
+}
+
+.benefuts__card-tree {
+	background-image: url(../images/music.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 42px;
+	height: 42px;
 }
 
 .benefits__card-text {
 	text-align: center;
+	margin: 0;
 }
 
-.benefits__card-image {
+/*.benefits__card-image {
 	width: 50px;
 	height: 50px;
-	background-image: url(../images/mountain-header.jpg);
-	/*text-align: center;*/
-}
+	/*background-image: url(../images/mountain-header.jpg);
+	/*text-align: center;
+}*/
 
 /*3 блок NUMBERS*/
 .numbers {
@@ -151,6 +175,22 @@
 	background-repeat: no-repeat;
 	display: flex;
 	flex-direction: row-reverse;
+}
+
+.numbers__title {
+	color: white;
+}
+
+.numbers__subtitle {
+	color: white;
+}
+
+.numbers__square-title {
+	color: white;
+}
+
+.numbers__square-num {
+	color: white;
 }
 
 .numbers__info {
