@@ -174,7 +174,7 @@
 	text-align: center;
 }
 
-/*4 блок NUMBERS*/
+/*4 блок BLOG*/
 .blog {
 	display: flex;
 	flex-direction: row;
@@ -196,4 +196,88 @@
 	background-repeat: no-repeat;
 	width: 350px;
 	height: 350px;
+}
+
+/*5 блок CAMERA*/
+.camera {
+	background-color: #f8c9d7;
+	display: flex;
+}
+
+.camera__info {
+	background-color: rgba(23, 144, 255, 0.35);
+	display: flex;
+	flex-direction: column;
+	padding: 20px 30px 20px 30px;
+	width: 300px;
+	margin-left: 45px;
+}
+/*6 блок MOSAIC*/
+.mosaic {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+	justify-content: center;
+	margin: 45px 0 0 0;
+}
+.mosaic__all-photos {
+	background-color: #f8c9d7;
+	border: 1px solid red;
+}
+
+.mosaic__left-column {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.mosaic__coffee {
+	width: 788px;
+	height: 386px;
+}
+
+.mosaic__three-photos {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.mosaic__bridge {
+	width: 387px;
+	height: 594px;
+}
+
+.mosaic__two-photos {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.mosaic__sunset {
+	width: 386px;
+	height: 386px;
+}
+
+.mosaic__photographer {
+	width: 386px;
+	height: 193px;
+}
+
+.mosaic__motel {
+	width: 788px;
+	height: 154px;
+}
+
+.mosaic__right-column {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.mosaic__volcano {
+	width: 387px;
+	height: 849px;
+}
+
+.mosaic__plane {
+	width: 386px;
+	height: 300px;
 }
