@@ -1,18 +1,18 @@
-@font-face {
-	font-family: "Glyphicons";
-	src: url(../fonts/glyphicons-halflings-regular.woff)format(woff);
-	font-style: normal;
-}
-
 .page {
-    height: 920px;
+	min-width: 1100px;
+    max-width: 1600px;
     margin: 0 auto;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 	border: 1px solid red;
 }
 
+/*.body, html {
+	font-family: 'Rubik', sans-serif;
+}*/
+
 /*Стили HEADER*/
 .header {
+	/*font-family: 'Rubik', sans-serif;*/
 	height: 720px;
 	display: flex;
 	flex-direction: column;
@@ -69,14 +69,12 @@
 }
 
 .header__title_top {
-	font-family: "Glyphicons";
 	font-size: 36px;
 	margin: 0;
 	color: white;
 }
 
 .header__title_bottom {
-	font-family: "Glyphicons";
 	font-size: 58px;
 	margin: 0;
 	color: white;
