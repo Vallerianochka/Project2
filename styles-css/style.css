@@ -51,14 +51,17 @@
 	background-color: #F04075;
 }
 
-.logo_place_header {
-	background-image: url(../images/your_logo.png);
+.logo {
 	width: 228px;
     height: 32px;
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
+.logo_place_header {
+	background-image: url(../images/your_logo.png);
+}
+	
 .header__title {
 	text-align: center;
 }
@@ -521,3 +524,28 @@
 	margin: 45px;
 	border: 1px solid red;
   }
+
+  /*9 блок FOOTER*/
+  .footer {
+	display: flex;
+	justify-content: center;
+	min-height: 250px;
+	background-color: #1f1f1f;
+  }
+
+  .footer__column{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 90%;
+
+  }
+  
+  .logo_place_footer {
+	background-image: url(../images/your_logo.png);
+	background-color: antiquewhite;
+	border-radius: 30px;
+  }
+
+
+
