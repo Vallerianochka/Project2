@@ -6,13 +6,8 @@
 	border: 1px solid red;
 }
 
-/*.body, html {
-	font-family: 'Rubik', sans-serif;
-}*/
-
 /*Стили HEADER*/
 .header {
-	/*font-family: 'Rubik', sans-serif;*/
 	height: 720px;
 	display: flex;
 	flex-direction: column;
@@ -224,7 +219,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
-	width: 600px;
+	width: 80%;
 }
 
 .blog__image {
@@ -396,4 +391,117 @@
     grid-row-start: 8;
     grid-row-end: 11;
     /*grid-row: 8 / span 3;*/
+  }
+
+  /*7 блок LOGOS*/
+  /*.logos {
+	display: flex;
+	background-color: #f8c9d7;
+	padding: 45px;
+	gap: 15px;
+  }
+
+  .logos__logo1 {
+	background-image: url(../images/logo-sample-01.jpg);
+	width: 250px;
+	height: 160px;
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+
+  .logos__logo2 {
+	background-image: url(../images/logo-sample-02.jpg);
+	width: 250px;
+	height: 160px;
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+
+  .logos__logo3 {
+	background-image: url(../images/logo-sample-03.png);
+	width: 250px;
+	height: 160px;
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+
+  .logos__logo4 {
+	background-image: url(../images/logo-sample-04.jpg);
+	width: 250px;
+	height: 160px;
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+
+  .logos__logo5 {
+	background-image: url(../images/logo-sample-05.jpg);
+	width: 250px;
+	height: 160px;
+	background-size: cover;
+	background-repeat: no-repeat;
+  }
+
+  .logos__logo6 {
+	background-image: url(../images/logo-sample-06.png);
+	width: 250px;
+	height: 160px;
+	background-size: cover;
+	background-repeat: no-repeat;
+  }*/
+
+  /*7 блок LOGOS*/
+  .logos {
+	display: flex;
+	flex-direction: row;
+    gap: 15px;
+	margin: 45px;
+	justify-content: space-between;
+  }
+
+  .logos__logo1 {
+	background-image: url(../images/logo-sample-01.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 220px;
+	height: 150px;
+  }
+
+  .logos__logo2 {
+	background-image: url(../images/logo-sample-02.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 220px;
+	height: 150px;
+  }
+
+  .logos__logo3 {
+	background-image: url(../images/logo-sample-03.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 220px;
+	height: 150px;
+  }
+
+  .logos__logo4 {
+	background-image: url(../images/logo-sample-04.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 220px;
+	height: 150px;
+  }
+
+  .logos__logo5 {
+	background-image: url(../images/logo-sample-05.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 220px;
+	height: 150px;
+  }
+
+  .logos__logo6 {
+	background-image: url(../images/logo-sample-06.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 220px;
+	height: 150px;
   }
