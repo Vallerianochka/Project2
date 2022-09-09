@@ -529,22 +529,39 @@
   .footer {
 	display: flex;
 	justify-content: center;
-	min-height: 250px;
+	min-height: 200px;
 	background-color: #1f1f1f;
   }
 
-  .footer__column{
+  .footer__columns {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 90%;
+	padding: 40px 0 20px 0;
+  }
+
+  .footer__left-column {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-	width: 90%;
 
   }
-  
+
   .logo_place_footer {
 	background-image: url(../images/your_logo.png);
 	background-color: antiquewhite;
 	border-radius: 30px;
+  }
+
+  .footer__autor, .footer__link {
+	color: white;
+  }
+
+  .footer__social_network {
+	display: flex;
+	align-items: center;
+	gap: 10px;
   }
 
 
