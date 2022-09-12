@@ -34,7 +34,7 @@
 }
 
 .base-button {
-	font-family: "Glyphicons";
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	color: white;
 	font-size: 16px;
@@ -43,11 +43,11 @@
 	border: none;
 }
 
-.header__first_button {
+.first_button {
 	background-color: #40E6F0;
 }
 
-.header__accent_button {
+.accent_button {
 	background-color: #F04075;
 }
 
@@ -513,6 +513,9 @@
   .contact {
 	display: flex;
 	background-color: antiquewhite;
+	background-image: url(../images/contact.png);
+	background-size: cover;
+	background-repeat: no-repeat;
   }
 
   .contact__info {
@@ -522,22 +525,30 @@
 	gap: 20px;
 	width: 60%;
 	margin: 45px;
-	border: 1px solid red;
+  }
+
+  .contact__title, .contact__subtitle {
+	color: white;
+  }
+
+  .input {
+	width: 320px;
+	height: 30px;
   }
 
   /*9 блок FOOTER*/
   .footer {
 	display: flex;
-	justify-content: center;
-	min-height: 200px;
-	background-color: #1f1f1f;
+	min-height: 150px;
+	background-color: #9C6C61;
+	padding: 0 45px 0 45px;
   }
 
   .footer__columns {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	width: 90%;
+	width: 100%;
 	padding: 40px 0 20px 0;
   }
 
