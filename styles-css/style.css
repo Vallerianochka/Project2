@@ -235,18 +235,40 @@
 
 /*5 блок CAMERA*/
 .camera {
-	background-color: #f8c9d7;
 	display: flex;
+	background-image: url(../images/image/5\ block\ Camera.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .camera__info {
-	background-color: rgba(23, 144, 255, 0.35);
+	background-color: rgba(19, 11, 9, 0.8);
 	display: flex;
 	flex-direction: column;
 	padding: 20px 30px 20px 30px;
 	width: 300px;
 	margin-left: 45px;
 }
+
+.camera__title {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-style: italic;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+}
+
+.camera__subtitle, .camera_remark {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-style: regular;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 400;
+}
+
+
 /*6 блок MOSAIC*/
 /*.mosaic {
 	display: flex;
@@ -330,7 +352,7 @@
   }
 
 [class^="mosaic__"] {
-    background-color: skyblue;
+    background-color: #cdb5b0c7;
     /* Размещаем контейнеры по центру */
     display: grid;
     /*object-fit: cover;*/
@@ -513,7 +535,7 @@
   .contact {
 	display: flex;
 	background-color: antiquewhite;
-	background-image: url(../images/contact.png);
+	background-image: url(../images/image/8\ block\ contact.png);
 	background-size: cover;
 	background-repeat: no-repeat;
   }
@@ -540,7 +562,7 @@
   .footer {
 	display: flex;
 	min-height: 150px;
-	background-color: #9C6C61;
+	background-color: #cdb5b0c7;
 	padding: 0 45px 0 45px;
   }
 
