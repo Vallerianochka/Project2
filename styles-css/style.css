@@ -27,30 +27,6 @@
 	align-items: center;
 }
 
-.header__buttons {
-	display: flex;
-	justify-content: center;
-	gap: 10px;
-}
-
-.base-button {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 500;
-	color: white;
-	font-size: 16px;
-	padding: 10px 25px;
-	border-radius: 3px;
-	border: none;
-}
-
-.first_button {
-	background-color: #40E6F0;
-}
-
-.accent_button {
-	background-color: #d58777;
-}
-
 .logo {
 	width: 228px;
     height: 32px;
@@ -67,7 +43,7 @@
 }
 
 .header__title_top {
-	font-size: 36px;
+	font-size: 32px;
 	margin: 0;
 	color: rgb(8, 8, 8);
 }
@@ -81,27 +57,9 @@
 .header__subtitle {
 	text-align: center;
 	margin: 50px 0 30px 0;
-	line-height: 1.6;
+	line-height: 24px;
 	color: rgb(8, 8, 8);
-	font-size: 18px;
-}
-
-.header__burger-button {
-	width: 38px;
-	height: 38px;
-	background: transparent;
-	border: none;
-}
-
-.header__burger-icon path {
-	width: 24px;
-	height: 24px;
-	fill: black;
-
-}
-
-.header__all_buttons {
-	
+	font-size: 16px;
 }
 
 /*2 блок BENEFITS*/
@@ -117,17 +75,17 @@
 	flex-direction: row;
 	padding: 0 45px 0 45px;
 	gap: 30px;
-	/*justify-content: center;*/
 }
 
 .benefits__card {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 20px;
 	/*width: 590px;*/
 }
 
-.benefuts__card-one {
+.benefits__card-one {
 	background-image: url(../images/briefcase.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -135,7 +93,7 @@
 	height: 42px;
 }
 
-.benefuts__card-two {
+.benefits__card-two {
 	background-image: url(../images/camera.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -143,7 +101,7 @@
 	height: 42px;
 }
 
-.benefuts__card-tree {
+.benefits__card-tree {
 	background-image: url(../images/music.svg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -151,17 +109,17 @@
 	height: 42px;
 }
 
-.benefits__card-text {
-	text-align: center;
+.benefits__card-title {
+	font-size: 24px;
 	margin: 0;
 }
 
-/*.benefits__card-image {
-	width: 50px;
-	height: 50px;
-	/*background-image: url(../images/mountain-header.jpg);
-	/*text-align: center;
-}*/
+.benefits__card-text {
+	text-align: center;
+	margin: 0;
+	font-size: 16px;
+	line-height: 24px;
+}
 
 /*3 блок NUMBERS*/
 .numbers {
@@ -172,29 +130,27 @@
 	flex-direction: row-reverse;
 }
 
-.numbers__title {
-	color: white;
-}
-
-.numbers__subtitle {
-	color: white;
-}
-
-.numbers__square-title {
-	color: white;
-}
-
-.numbers__square-num {
-	color: white;
-}
-
 .numbers__info {
 	background-color: rgba(19, 11, 9, 0.8);
 	display: flex;
 	flex-direction: column;
+	gap: 40px;
 	padding: 50px 30px 50px 30px;
 	width: 340px;
 	margin-right: 45px;
+}
+
+.numbers__title, .numbers__square-num {
+	color: white;
+	font-size: 24px;
+	margin: 0;
+}
+
+.numbers__subtitle, .numbers__square-title {
+	color: white;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0;
 }
 
 .numbers__square {
@@ -203,10 +159,15 @@
 	justify-content: center;
 	gap: 20px;
 }
+
 .numbers__square-stroke {
+	display: flex;
+	flex-direction: column;
 	border: 1px solid white;
 	width: 400px;
 	text-align: center;
+	padding: 20px;
+	gap: 20px;
 }
 
 /*4 блок BLOG*/
@@ -218,11 +179,20 @@
 	justify-content: center;
 }
 
-.blog__left-side{
+.blog__left-side {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
+	/*gap: 20px;*/
 	width: 80%;
+}
+
+.blog__title {
+	color: rgb(8, 8, 8);
+	line-height: 38px;
+	font-size: 32px;
+	margin: 0;
+	padding: 0 0 30px 0;
 }
 
 .blog__image {
@@ -234,8 +204,12 @@
 	height: 350px;
 }
 
-.blog__arrow-button::after {
-	content: "  \2192";
+.blog__text {
+	color: rgb(8, 8, 8);
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0;
+	padding: 0 0 15px 0;
 }
 
 /*5 блок CAMERA*/
@@ -259,7 +233,7 @@
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 18px;
 	font-weight: 400;
 }
@@ -268,84 +242,12 @@
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-style: regular;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 18px;
 	font-weight: 400;
 }
 
-
 /*6 блок MOSAIC*/
-/*.mosaic {
-	display: flex;
-	flex-direction: row;
-	gap: 15px;
-	justify-content: center;
-	margin: 45px 0 0 0;
-}
-.mosaic__all-photos {
-	background-color: #f8c9d7;
-	border: 1px solid red;
-}
-
-.mosaic__left-column {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-}
-
-.mosaic__coffee {
-	width: 788px;
-	height: 386px;
-}
-
-.mosaic__three-photos {
-	display: flex;
-	flex-direction: row;
-	gap: 15px;
-}
-
-.mosaic__bridge {
-	width: 387px;
-	height: 594px;
-}
-
-.mosaic__two-photos {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-}
-.mosaic__sunset {
-	width: 386px;
-	height: 386px;
-}
-
-.mosaic__photographer {
-	width: 386px;
-	height: 193px;
-}
-
-.mosaic__motel {
-	width: 788px;
-	height: 154px;
-}
-
-.mosaic__right-column {
-	display: flex;
-	flex-direction: column;
-	gap: 15px;
-}
-.mosaic__volcano {
-	width: 387px;
-	height: 849px;
-}
-
-.mosaic__plane {
-	width: 386px;
-	height: 300px;
-}
-*/
-/*6 блок MOSAIC*/
-
 .mosaic {
     display: grid;
     grid-gap: 15px;
@@ -353,7 +255,6 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(10, 1fr);
 	margin: 45px;
-    /*justify-items: end;*/
   }
 
 [class^="mosaic__"] {
@@ -363,6 +264,7 @@
     /*object-fit: cover;*/
     /*place-items: center;*/
   }
+
   .mosaic__coffee {
     grid-column-start: 1;
     grid-column-end: 9;
@@ -424,62 +326,6 @@
   }
 
   /*7 блок LOGOS*/
-  /*.logos {
-	display: flex;
-	background-color: #f8c9d7;
-	padding: 45px;
-	gap: 15px;
-  }
-
-  .logos__logo1 {
-	background-image: url(../images/logo-sample-01.jpg);
-	width: 250px;
-	height: 160px;
-	background-size: cover;
-	background-repeat: no-repeat;
-  }
-
-  .logos__logo2 {
-	background-image: url(../images/logo-sample-02.jpg);
-	width: 250px;
-	height: 160px;
-	background-size: cover;
-	background-repeat: no-repeat;
-  }
-
-  .logos__logo3 {
-	background-image: url(../images/logo-sample-03.png);
-	width: 250px;
-	height: 160px;
-	background-size: cover;
-	background-repeat: no-repeat;
-  }
-
-  .logos__logo4 {
-	background-image: url(../images/logo-sample-04.jpg);
-	width: 250px;
-	height: 160px;
-	background-size: cover;
-	background-repeat: no-repeat;
-  }
-
-  .logos__logo5 {
-	background-image: url(../images/logo-sample-05.jpg);
-	width: 250px;
-	height: 160px;
-	background-size: cover;
-	background-repeat: no-repeat;
-  }
-
-  .logos__logo6 {
-	background-image: url(../images/logo-sample-06.png);
-	width: 250px;
-	height: 160px;
-	background-size: cover;
-	background-repeat: no-repeat;
-  }*/
-
-  /*7 блок LOGOS*/
   .logos {
 	display: flex;
 	flex-direction: row;
@@ -539,9 +385,8 @@
   /*8 блок CONTACT*/
   .contact {
 	display: flex;
-	background-color: antiquewhite;
 	background-image: url(../images/image/8\ block\ contact.png);
-	background-size: cover;
+	/*background-size: cover;*/ /*whyyyyy?!*/
 	background-repeat: no-repeat;
   }
 
@@ -550,24 +395,35 @@
 	flex-direction: column;
 	align-items: flex-start;
 	gap: 20px;
-	width: 60%;
+	width: 50%;
 	margin: 45px;
   }
 
-  .contact__title, .contact__subtitle {
+  .contact__title {
 	color: white;
+	font-size: 24px;
+	margin: 0;
+  }
+
+  .contact__subtitle {
+	color: white;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0;
   }
 
   .input {
 	width: 320px;
-	height: 30px;
+	height: 38px;
+	margin-right: 10px;
+	padding: 3px 10px;
   }
 
   /*9 блок FOOTER*/
   .footer {
 	display: flex;
 	min-height: 150px;
-	background-color: #cdb5b0c7;
+	background-color: black;
 	padding: 0 45px 0 45px;
   }
 
@@ -583,7 +439,6 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
   }
 
   .logo_place_footer {
@@ -594,6 +449,9 @@
 
   .footer__autor, .footer__link {
 	color: white;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0;
   }
 
   .footer__social_network {

@@ -1,0 +1,44 @@
+/*HEADER*/ /*8 блок CONTACT*/
+.header__buttons {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.header__burger-button {
+	width: 38px;
+	height: 38px;
+	background: transparent;
+	border: none;
+}
+.header__burger-icon path {
+	width: 24px;
+	height: 24px;
+	fill: black;
+}
+
+.base-button {
+	font-weight: 500;
+	color: white;
+	font-size: 16px;
+	padding: 10px 25px;
+	border-radius: 3px;
+	border: none;
+}
+
+.first_button {
+	background-color: #130b09;
+}
+
+.accent_button {
+	background-color: #d58777;
+}
+
+/*4 блок BLOG*/
+.blog__arrow-button{
+    background-color: #d58777;
+}
+
+.blog__arrow-button::after {
+	content: "  \2192";
+}
