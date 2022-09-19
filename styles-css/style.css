@@ -3,7 +3,6 @@
     max-width: 1600px;
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
-	border: 1px solid red;
 }
 
 /*Стили HEADER*/
@@ -85,28 +84,13 @@
 	/*width: 590px;*/
 }
 
-.benefits__card-one {
-	background-image: url(../images/briefcase.svg);
-	background-size: cover;
-	background-repeat: no-repeat;
+.benefits__card-image {
 	width: 42px;
 	height: 42px;
 }
 
-.benefits__card-two {
-	background-image: url(../images/camera.svg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 42px;
-	height: 42px;
-}
-
-.benefits__card-tree {
-	background-image: url(../images/music.svg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	width: 42px;
-	height: 42px;
+.benefits__card-icon path {
+	fill: #130b09;
 }
 
 .benefits__card-title {
