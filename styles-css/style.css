@@ -10,7 +10,8 @@
 	height: 720px;
 	display: flex;
 	flex-direction: column;
-	padding: 20px 45px;
+	align-items: center;
+	padding: 0;
 	background-image: url(../images/image/photo-header.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -24,6 +25,8 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 20px 0;
+	width: 90%;
 }
 
 .logo {
@@ -63,15 +66,12 @@
 
 /*2 блок BENEFITS*/
 .benefits {
-	/*display: flex;
-	justify-content: center;
-	flex-direction: column;*/
-	margin-top: 100px;
-	margin-bottom: 100px;
+	margin: 80px 45px 0;
 }
 .benefits__tile {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	padding: 0 45px 0 45px;
 	gap: 30px;
 }
@@ -112,6 +112,7 @@
 	background-repeat: no-repeat;
 	display: flex;
 	flex-direction: row-reverse;
+	margin-top: 80px;
 }
 
 .numbers__info {
@@ -158,9 +159,9 @@
 .blog {
 	display: flex;
 	flex-direction: row;
-	gap: 40px;
-	padding: 45px;
 	justify-content: center;
+	gap: 40px;
+	margin: 80px 45px 0;
 }
 
 .blog__left-side {
@@ -202,6 +203,7 @@
 	background-image: url(../images/image/5\ block\ Camera.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+	margin-top: 80px;
 }
 
 .camera__info {
@@ -215,7 +217,6 @@
 
 .camera__title {
 	color: white;
-	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
 	font-size: 14px;
 	line-height: 18px;
@@ -224,7 +225,6 @@
 
 .camera__subtitle, .camera_remark {
 	color: white;
-	font-family: 'Open Sans', sans-serif;
 	font-style: regular;
 	font-size: 14px;
 	line-height: 18px;
@@ -246,7 +246,7 @@
     /* Размещаем контейнеры по центру */
     display: grid;
     /*object-fit: cover;*/
-    /*place-items: center;*/
+    place-items: center;
   }
 
   .mosaic__coffee {
@@ -314,7 +314,7 @@
 	display: flex;
 	flex-direction: row;
     gap: 15px;
-	margin: 45px;
+	margin: 0 45px;
 	justify-content: space-between;
   }
 
@@ -370,8 +370,9 @@
   .contact {
 	display: flex;
 	background-image: url(../images/image/8\ block\ contact.png);
-	/*background-size: cover;*/ /*whyyyyy?!*/
+	background-size: cover; /*whyyyyy?!*/
 	background-repeat: no-repeat;
+	margin: 45px 0 0;
   }
 
   .contact__info {
@@ -444,5 +445,9 @@
 	gap: 10px;
   }
 
+  .footer__social_icon {
+	width: 30px;
+	height: 30px;
+  }
 
 
