@@ -10,7 +10,17 @@
 	height: 38px;
 	background: transparent;
 	border: none;
+	cursor: pointer;
 }
+
+.header__burger-button path {
+	transition: all 200ms;
+}
+
+.header__burger-button:hover path {
+	fill: #d58777;
+}
+
 .header__burger-icon path {
 	width: 24px;
 	height: 24px;
